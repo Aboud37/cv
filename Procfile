@@ -1,1 +1,1 @@
-web: gunicorn cv.wsgi --log-file -
+web: gunicorn mycv.wsgi  --log-file - --log-level debug
