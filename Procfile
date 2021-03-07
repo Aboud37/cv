@@ -1,1 +1,1 @@
-web: gunicorn abderrahmen-mokrani.wsgi --log-file -
+web: gunicorn cv.wsgi --log-file -
