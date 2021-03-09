@@ -4,11 +4,15 @@ from datetime import date
 
 
 class About(models.Model):
+    name = models.CharField(max_length=50, null=True)
     desc = models.TextField(max_length=5000)
     age = models.CharField(max_length= 50)
     email = models.CharField(max_length= 50)
     phone = models.CharField(max_length= 50)
     address = models.CharField(max_length= 50)
+    image = models.ImageField(upload_to="images/", null=True)
+    first_function = models.CharField(max_length=50, null=True)
+    second_function = models.CharField(max_length=50, null=True)
 
     def __str__(self):
         return self.email
