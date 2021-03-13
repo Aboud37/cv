@@ -22,9 +22,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '%qy^=dtsql4==6k0i@oyw26*q51#1krrax=na3ay!iggb#8d!h'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['abderrahmen-mokrani.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = []
 
 # Application definition
 
